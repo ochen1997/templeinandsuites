@@ -24,7 +24,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #80d39b;
-    padding: 20px;
+    padding: 10px;
 }
 
 .headerlogo {
@@ -41,7 +41,7 @@ header {
 
 
 .headerlogo img {
-    width: 150px;
+    width: 70px;
     height: auto;
     border-radius: 50px 50px 50px;
 }
@@ -101,12 +101,14 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(8, 1fr);
     gap: 10px;
+
 }
 
 .section1 {
     background-color: #437c90;
     grid-column: 1/4;
     grid-row: 1/2;
+    
    
 
 
@@ -117,6 +119,7 @@ main {
     grid-column: 1/4;
     grid-row: 2/3;
     background-color: #437c90;
+   
 
 }
 
@@ -152,6 +155,7 @@ button {
     grid-column: 1/4;
     grid-row: 4/3;
     background-color: #437c90;
+    
    
     
 
@@ -161,12 +165,19 @@ button {
     grid-column: 1/4;
     grid-row: 4/5;
     background-color: #437c90;
+   
+}
+.section4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px 0 100px;
 }
 
 .section5 {
     grid-column: 1/4;
     grid-row: 6/7;
     background-color: #437c90;
+   
  
 }
 
@@ -194,6 +205,14 @@ button {
     grid-row: 5/6;
     background-color: #437c90;
 }
+.section9 img{
+    width: 100%;
+    height: 100%;
+}
+
+.a, .b, .c, .d {
+       display: none;
+}
 
 
 .section9 {
@@ -201,6 +220,7 @@ button {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     padding: 10px;
+    
 }
 .section9 p {
     display: none;
@@ -213,6 +233,7 @@ button {
     display: flex;
     border: 1px solid yellow;
     margin: 0;
+   
 
 }
 
@@ -222,6 +243,8 @@ button {
     display: flex;
     border: 1px solid yellow;
     margin: 0;
+   
+    
 }
 .section1 p{
       color: var(--clr-two);
@@ -234,6 +257,37 @@ button {
       padding: 10px;
       line-height: 1.5rem;
       
+}
+.section5 p{
+    color: var(--clr-two);
+      padding: 10px;
+   
+}
+
+.section8 p{
+    color: var(--clr-two);
+    padding: 10px;
+    line-height: 1.5rem;
+    
+
+}
+
+.section7 {
+    text-align: center;
+    color: yellow;
+}
+
+.section7 button {
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #1b2225;
+    
+}
+
+.section7 button a{
+    text-decoration: none;
+    font-size: larger;
+    color: #80d39b;
 }
 
 
@@ -251,6 +305,9 @@ footer img {
     border-radius: 50px 0 50px;
 
 }
+.footercontent a{
+      color: white;
+}
 
 footer {
     text-align: center;
@@ -267,4 +324,26 @@ footer {
 }
 footer p ,h2{
     color: var(--clr-two)
+}
+
+body{
+    font-family: 'EB Garamond', serif;  
+}
+h5{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1rem;
+}
+
+h2,
+h3{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+ul li a {
+    color: black;
+}
+ul li a:hover {
+    color: wheat;
+    background-color: #437c90;
+    border-radius: 20px 20px 20px;
 }

@@ -1,0 +1,52 @@
+{
+    "temples": [
+        {
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/800x500/bern-switzerland-temple-lds-784288-wallpaper.jpg",
+            "address": "Tempelstrasse 2 CH-3052 Zollikofen Switzerland",
+            "telephone": "(41) 31-915-5252",
+            "email": "bernswitzerlandtemple@gmail.com",
+            "services": "Clothing rental available",
+            "history": "The 2.8-hectare (7-acre) lot was selected in July 1952 by LDS Church president David O. McKay and Samuel E. Bringhurst, then president of the Swiss-Austrian Mission.[2] ",
+            "ordinancesschedule": "All ordinances are available by appointment",
+            "sessionschedule": "Please contact the temple for more information",
+            "templeclosureschedule": "Monday, 13 June 2022 - Monday, 27 June 2022"
+        },
+        
+        {
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/billings-montana/800x500/02-Billings-Montana-Temple-1572044.jpg",
+            "address": "3100 Rim Point Dr Billings MT 59106-1386 United States",
+            "telephone": "(1) 406-655-0607",
+            "email": "billingmotanatemple@gmail.com",
+            "services": "Clothing rental available",
+            "history": "Plans to build a temple in Montana were announced in August 1996.[1] About 4,800 people gathered during a spring snowstorm to witness the groundbreaking on March 28, 1998.",
+            "ordinancesschedule": "All ordinances are available by appointment",
+            "sessionschedule": "Please contact the temple for more information",
+            "templeclosureschedule": "Monday, 9 May 2022 - Monday, 23 May 2022"
+        },
+
+        {
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bismarck-north-dakota/800x500/bismark-north-dakota-temple-83526-wallpaper.jpg",
+            "address": "2930 Cody Dr Bismarck ND 58503-0116 United States",
+            "telephone": "(1) 701-258-9590",
+            "email": "bismarcknorthdakotatemple@gmail.com",
+            "services": "No clothing rental available",
+            "history": "The Bismarck North Dakota Temple is the 61st operating temple of The Church of Jesus Christ of Latter-day Saints. Missionary work in North Dakota began in 1914 and by 1930.",
+            "ordinancesschedule": "All ordinances are available by appointment",
+            "sessionschedule": "Please contact the temple for more information ",
+            "templeclosureschedule": "Monday, 1 August 2022 - Monday, 15 August 2022"
+        },
+
+        {
+            "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bogota-colombia/800x500/bogota-colombia-temple-lds-1029726-wallpaper.jpg",
+            "address": "Carrera 46 N°127-45 Bogotá Distrito Capital Colombia",
+            "telephone": "(57) 1-625-8000",
+            "email": "bogotábolombiatemple",
+            "services": "Clothing rental available",
+            "history": "Ground was broken for the Bogotá Colombia Temple on June 26, 1993, by William R. Bradford. Fifteen years passed from the time the announcement of the Bogotá Colombia Temple in 1984 to its dedication in 1999. The temple was dedicated on April 24 1999 by LDS Church president Gordon B. Hinckley.",
+            "ordinancesschedule": "All ordinances are available by appointment",
+            "sessionschedule": "Please contact the temple for more informaton",
+            "templeclosureschedule": "Wednesday, 20 July 2022"
+        }
+
+    ]
+}

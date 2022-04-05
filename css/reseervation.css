@@ -1,0 +1,252 @@
+body {
+    padding: 0px;
+    border: 0px;
+
+
+}
+
+body {
+    min-width: 200px;
+}
+
+
+
+:root {
+    --clr-one: #437c90;
+    --clr-two: #f7f0f0;
+    --clr-three: #80d39b;
+    --clr-four: #303522;
+    --clr-five: #f71735;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80d39b;
+    padding: 10px;
+
+}
+
+.headerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+
+
+
+
+.headerlogo img {
+    width: 70px;
+    height: auto;
+    border-radius: 50px 50px 50px;
+}
+
+.mynav {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialmedia img {
+    width: 40px;
+    height: auto;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul li {
+    display: none;
+}
+
+ul li:first-child {
+    display: block;
+    margin-left: 20px;
+
+}
+
+ul li a {
+    margin-right: 30px;
+    text-align: left;
+}
+
+ul li button:hover {
+    background-color: #80d39b;
+}
+header {
+    border: 1px solid yellow;
+    border-radius: 20px 20px 20px;
+}
+
+
+
+
+
+
+
+footer img {
+    width: 150px;
+    height: auto;
+    border-radius: 50px 0 50px;
+
+}
+.footercontent a{
+      color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+footer {
+    background-color: #1b2225;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px 20px 20px;
+    border: 1px solid yellowgreen;
+
+
+}
+footer p ,h2{
+    color: var(--clr-two)
+}
+
+.location,
+.date,
+.typeofroom,
+.tel,
+.email,
+.name,
+.hometown
+{
+    display: block;
+    line-height: 2rem;
+    width: 100%;
+}
+main{
+    margin-top: 20px;
+}
+
+fieldset{
+    border: 1px solid #f71735;
+    
+}
+
+legend{
+    text-align: center;
+}
+
+form label{
+    line-height: 2rem;
+}
+.submit {
+    margin-top: 10px;
+    line-height: 2rem;
+    border-radius: 20px 20px 20px;
+    background-color: #437c90;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: #f7f0f0;
+}
+
+h5{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1rem;
+}
+h2{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+body{
+    font-family: 'EB Garamond', serif;
+    
+}
+
+ul li a{
+    color: black;
+}
+ul li a:hover {
+    color: wheat;
+    background-color: #437c90;
+    border-radius: 20px 20px 20px;
+}
+
+
+ 
+
+
+@media only screen and (min-width:768px) {
+
+
+    ul li a {
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .location,
+    .date,
+    .typeofroom,
+    .tel,
+    .email,
+    .name,
+    .hometown{
+        width: 50%;
+    }
+
+}
+
+
+@media only screen and (min-width:992px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    ul li:first-child {
+        display: none;
+    }
+
+    ul li a {
+        margin-right: 0;
+    }
+
+    ul li {
+        display: inline-flex;
+
+
+    }
+
+    ul li a {
+        text-decoration: none;
+        padding: 10px;
+    }
+
+
+    .footercontent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footerlogo {
+        display: flex;
+        align-items: center;
+    }
+}

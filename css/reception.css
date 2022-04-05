@@ -1,0 +1,304 @@
+* {
+    padding: 0px;
+    border: 0px;
+
+
+}
+
+body {
+    min-width: 200px;
+}
+
+
+
+:root {
+    --clr-one: #437c90;
+    --clr-two: #f7f0f0;
+    --clr-three: #80d39b;
+    --clr-four: #303522;
+    --clr-five: #f71735;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80d39b;
+    padding: 10px;
+}
+
+.headerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+.headerlogo img {
+    width: 70px;
+    height: auto;
+    border-radius: 50px 50px 50px;
+}
+
+.mynav {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialmedia img {
+    width: 40px;
+    height: auto;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul li {
+    display: none;
+}
+
+ul li:first-child {
+    display: block;
+    margin-left: 20px;
+
+}
+
+ul li a {
+    margin-right: 30px;
+    text-align: left;
+}
+
+ul li button:hover {
+    background-color: #80d39b;
+}
+header {
+    border: 1px solid yellow;
+    border-radius: 20px 20px 20px;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+   
+}
+
+
+.section1{
+    grid-column: 1/6;
+    grid-row: 1/4;
+    background: #80d39b;
+    height: 300px;
+
+}
+
+.section2{
+    grid-column: 1/6;
+    grid-row: 4/5;
+    background-color: rgb(196, 186, 186);
+    height: 300px;
+}
+
+.section3{
+    grid-column: 1/6;
+    grid-row: 5/6;
+    background-color: wheat;
+    height: 300px;
+}
+
+.section4{
+    grid-column: 1/6;
+    grid-row: 6/7;
+    background-color: rgb(198, 247, 126);
+    height: 300px;
+
+}
+.section4 img{
+    height: 100%;
+}
+main{
+    margin-top: 30px;
+}
+
+.section1 img {
+    width: 100%;
+    height: 100%;
+
+}
+.weddingreception{
+    position: absolute;
+    padding: 10px;
+    font-size: larger;
+    color: white;
+    background-color: black;
+    margin: 20px;
+    border-radius: 20px 0 20px;
+
+}
+.section2{
+    text-align: center;
+    line-height: 1.5rem;
+    
+}
+.section3{
+    text-align: center;
+    line-height: 1.5rem;
+}
+.section4 h3 {
+    text-align: center;
+}
+
+.section4 li {
+    margin-left: 5px;
+}
+
+
+
+footer img {
+    width: 150px;
+    height: auto;
+    border-radius: 50px 0 50px;
+
+}
+.footercontent a{
+      color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+footer {
+    background-color: #1b2225;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px 20px 20px;
+    border: 1px solid yellowgreen;
+
+
+}
+footer p ,h2{
+    color: var(--clr-two)
+}
+body{
+    font-family: 'EB Garamond', serif;  
+}
+h5{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1rem;
+}
+h2,
+h3{
+    font-family: 'IBM Plex Serif', serif;
+}
+ul li a {
+    color: black;
+}
+ul li a:hover {
+    color: wheat;
+    background-color: #437c90;
+    border-radius: 20px 20px 20px;
+}
+
+@media only screen and (min-width:768px) {
+
+
+    ul li a {
+        text-decoration: none;
+        padding: 10px;
+    }
+ 
+    
+}
+
+
+@media only screen and (min-width:992px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul li:first-child {
+        display: none;
+    }
+
+    ul li a {
+        margin-right: 0;
+    }
+
+    ul li {
+        display: inline-flex;
+
+
+    }
+
+    ul li a {
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    main{
+        max-width: 1300px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .section1{
+        grid-column: 2/5;
+        grid-row: 1/4;
+        background: #80d39b;
+        height: 300px;
+    
+    }
+    
+    .section2{
+        grid-column: 4/6;
+        grid-row: 2/3;
+        background-color: rgb(196, 186, 186);
+        height: 300px;
+    }
+    
+    .section3{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        background-color: wheat;
+        height: 300px;
+    }
+    
+    .section4{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        background-color: rgb(198, 247, 126);
+        height: 300px;
+    
+    }
+    
+
+
+    .footercontent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footerlogo {
+        display: flex;
+        align-items: center;
+    }
+}

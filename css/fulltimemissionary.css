@@ -179,6 +179,10 @@ main {
     width: 80%;
 }
 
+fieldset{
+    padding: 10px;
+}
+
 .section4 label {
     line-height: 2rem;
 }

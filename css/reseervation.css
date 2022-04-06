@@ -134,7 +134,7 @@ footer p ,h2{
 {
     display: block;
     line-height: 2rem;
-    width: 100%;
+    width: 80%;
 }
 main{
     margin-top: 20px;
@@ -227,6 +227,7 @@ main{
     .name,
     .hometown{
         width: 50%;
+
     }
 
     main{

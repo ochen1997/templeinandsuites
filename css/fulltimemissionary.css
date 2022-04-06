@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: center;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #80d39b;
     padding: 10px;
@@ -252,6 +253,9 @@ h3 {
     margin: 10px;
 
 }
+main{
+    margin-right: 30px;
+}
 
 @media only screen and (min-width:768px) {
 
@@ -343,6 +347,9 @@ h3 {
         padding: 10px;
         cursor: pointer;
         color: #f7f0f0;
+    }
+    main{
+        margin-right: 0;
     }
 }
 

@@ -234,6 +234,9 @@ ul li a:hover {
     margin: 10px;
    
 }
+main{
+    margin-right: 30px;
+}
 
 @media only screen and (min-width:768px) {
 
@@ -241,6 +244,9 @@ ul li a:hover {
     ul li a {
         text-decoration: none;
         padding: 10px;
+    }
+    main{
+        margin-right: 0;
     }
  
     

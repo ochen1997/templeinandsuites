@@ -169,6 +169,9 @@ h3{
     margin: 10px;
    
 }
+main{
+    margin-right: 30px;
+}
 
 
 
@@ -178,6 +181,9 @@ h3{
     ul li a {
         text-decoration: none;
         padding: 10px;
+    }
+    main{
+        margin-right: 0px;
     }
 }
 

@@ -203,6 +203,9 @@ ul li a:hover {
     margin: 10px;
    
 }
+main{
+    margin-right: 30px;
+}
 
 
  
@@ -224,6 +227,10 @@ ul li a:hover {
     .name,
     .hometown{
         width: 50%;
+    }
+
+    main{
+        margin-right: 0;
     }
 
 }

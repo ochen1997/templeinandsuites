@@ -139,6 +139,7 @@ main {
     grid-row: 2/3;
     background-color: #437c90;
    
+   
 
 }
 
@@ -174,6 +175,7 @@ button {
     grid-column: 1/4;
     grid-row: 4/3;
     background-color: #437c90;
+   
     
    
     
@@ -184,6 +186,7 @@ button {
     grid-column: 1/4;
     grid-row: 4/5;
     background-color: #437c90;
+   
    
 }
 .section4 img{
@@ -196,6 +199,7 @@ button {
     grid-column: 1/4;
     grid-row: 6/7;
     background-color: #437c90;
+    
    
  
 }
@@ -204,6 +208,7 @@ button {
     grid-column: 1/4;
     grid-row: 7/8;
     background-color: #437c90;
+    
    
 
 }
@@ -212,6 +217,7 @@ button {
     grid-column: 1/4;
     grid-row: 8/9;
     background-color: #437c90;
+    
    
 }
 
@@ -223,6 +229,7 @@ button {
     grid-column: 1/4;
     grid-row: 5/6;
     background-color: #437c90;
+  
 }
 .section9 img{
     width: 100%;
@@ -387,6 +394,9 @@ ul li a:hover {
 }
 .temperature{
     color: white;
+}
+main{
+    margin-right: 30px;
 }
 
 

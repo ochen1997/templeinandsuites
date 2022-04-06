@@ -8,7 +8,7 @@
         padding: 10px;
     }
 
-    ul li:first-child {
+    .navbarlinks li:first-child {
         display: none;
     }
 
@@ -19,8 +19,12 @@
     ul li {
         display: inline-flex;
 
-
     }
+
+   .show li{
+       display: inline-flex;
+   }
+
 
     ul li a {
         text-decoration: none;
@@ -145,5 +149,9 @@
     .a, .b, .c, .d {
         display: flex;
  }
+ .navbarlinks a{
+    margin-left: 0;
+ }
+ 
 
 }

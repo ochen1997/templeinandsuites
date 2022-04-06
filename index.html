@@ -9,33 +9,36 @@
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Serif:wght@300&display=swap" rel="stylesheet">
+    <script defer src ="js/main.js"></script>
+    <script defer src ="js/menu.js"></script>
     <script defer src ="js/weather.js"></script>
     <title>Temple in and suites</title>
   </head> <body>
     <header>
-      <section class="headerlogo">
+     
+     <div class="headerlogo" >
         <img src="images/thetemple.webp" alt="templelogo" />
         <h5>Temple in and suites</h5>
-      </section>
+     </div>
 
-      <section class="socialmedia">
-        <a href=""
+      <div class="socialmedia">
+        <a href="https://www.pinterest.com/"
           ><img src="images/pinterest.png" alt="pinterest" target="blank"
         /></a>
 
-        <a href=""
+        <a href="https://twitter.com/?lang=en"
           ><img src="images/twiter.png" alt="twiter" target="blank"
         /></a>
-      </section>
-      <section class="mynav">
-        <nav>
-          <ul>
-            <li>
-              <a href="" onclick="mymenu()"
-                ><img src="images/menu.svg" alt="menu"
-              /></a>
-            </li>
+      </div>
+    
+ 
+          
+      
+      <nav>
+      <ul class="navbarlinks">
 
+       
+            <li><a href="#" onclick="toggleMenu()"><img src="images/menu.svg" alt="menu"></a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="temple.html">Temple</a></li>
             <li><a href="reservation.html">Reservation</a></li>
@@ -43,10 +46,13 @@
             <li><a href="reception.html">Reception</a></li>
             <li>
               <a href="fulltimetemplemissionary.html"
-                >FullTime Temple Missionary</a
+                >FullTime Temple Missionary</a         
               >
             </li>
           </ul>
+        
+          
+      
         </nav>
       </section>
     </header>
@@ -119,17 +125,13 @@
         <P class="dontinmedium">Additionally, the air-jetted, oversized spa tub has folding windows that open up into the bedroom. Beautiful French doors are located in the bedroom which leads out onto an expansive balcony overlooking the picturesque gardens and a serene rock water feature.A charming suite preserving the heritage in the historic inn building that offers a distinct charm with a private patio, king canopy bed, soaking tub, separate tiled shower, tucked away dining room with a mirror dressing table, and a refrigerator. The Hideaway Suite requires entry through the Towne House Restaurant, as it is located on the second floor of the original historic inn.</p>
       </section>
       <section class="section6">
-        <div>
-        <h2 class="weather">weather</h2>
-        </div>
-        <div>
-        <p class="icon">icon</p>
-        </div>
-        <div>
-        <p class="temperature">temperature</p>
-      </div>
-        <div>
+        <div> <h2 class="weather">Weather</h2></div>
+        <div class="icon-src">
           <p class="temperature"></p>
+          <img src="" alt="">
+        </div>
+        <div>
+          <p class="description"></p>
         </div>
       </section>
       <section class="section7">
@@ -176,8 +178,7 @@
 
       <div>
         <p>
-          <span>&copy;2022</span> / PATRICK OCHEN / OREM,UTAH / BYU IDAHO / LAST
-          MODIFIED:<span></span>
+          <span>&copy;2022</span> / PATRICK OCHEN / OREM,UTAH / BYU IDAHO / <span class="myupdate"></span>
         </p>
       </div>
     </footer>

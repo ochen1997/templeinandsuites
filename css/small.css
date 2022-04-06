@@ -23,8 +23,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-between;
     background-color: #80d39b;
     padding: 10px;
+    
 }
 
 .headerlogo {
@@ -65,27 +67,44 @@ header {
 }
 
 
-ul li {
+ul li {   
     display: none;
 }
 
-ul li:first-child {
-    display: block;
-    margin-left: 20px;
 
-}
 
-ul li a {
-    margin-right: 30px;
-    text-align: left;
-}
 
 ul li button:hover {
     background-color: #80d39b;
 }
 
+.navbarlinks li:first-child{
+    display: block;
+   
+    
+ 
+   
+   
+   
+}
 
 
+
+.show li{
+    display: block;
+}
+
+.navbarlinks a{
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    margin: 10px;
+   
+   
+   
+  
+   
+}
 
 main {
     margin-top: 20px;
@@ -280,15 +299,16 @@ button {
 .section7 button {
     margin-top: 100px;
     padding: 30px;
-    background-color: #1b2225;
+    background-color: #afb9b9;
     
 }
 
 .section7 button a{
     text-decoration: none;
     font-size: larger;
-    color: #80d39b;
+    color: black ;
 }
+
 
 
 
@@ -347,3 +367,30 @@ ul li a:hover {
     background-color: #437c90;
     border-radius: 20px 20px 20px;
 }
+
+.weather {
+    text-align: center;
+
+}
+.icon-src img{
+    width: 15%;
+}
+
+.icon-src{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.description{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+.temperature{
+    color: white;
+}
+
+
+
+
+ 
+

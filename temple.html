@@ -7,50 +7,56 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/temples.css" />
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Serif:wght@300&display=swap" rel="stylesheet">
-    <script defer src ="js/weather.js"></script>
+    <script defer src ="js/temple.js"></script>
+    <script defer src ="js/main.js"></script>
+    <script defer src ="js/menu.js"></script>
     <title>Temple in and suites</title>
   </head> <body>
     <header>
-      <section class="headerlogo">
-        <img src="images/thetemple.webp" alt="templelogo" />
-        <h3>Temple in and suites</h3>
-      </section>
-
-      <section class="socialmedia">
-        <a href=""
-          ><img src="images/pinterest.png" alt="pinterest" target="blank"
-        /></a>
-
-        <a href=""
-          ><img src="images/twiter.png" alt="twiter" target="blank"
-        /></a>
-      </section>
-      <section class="mynav">
-        <nav>
-          <ul>
-            <li>
-              <a href="" onclick="mymenu()"
-                ><img src="images/menu.svg" alt="menu"
-              /></a>
-            </li>
-
-            <li><a href="index.html">Home</a></li>
-            <li><a href="temple.html">Temple</a></li>
-            <li><a href="reservation.html">Reservation</a></li>
-            <li><a href="service.html">Services</a></li>
-            <li><a href="reception.html">Reception</a></li>
-            <li>
-              <a href="fulltimetemplemissionary.html"
-                >FullTime Temple Missionary</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </section>
-    </header>
+     
+      <div class="headerlogo" >
+         <img src="images/thetemple.webp" alt="templelogo" />
+         <h5>Temple in and suites</h5>
+      </div>
+ 
+       <div class="socialmedia">
+         <a href="https://www.pinterest.com/"
+           ><img src="images/pinterest.png" alt="pinterest" target="blank"
+         /></a>
+ 
+         <a href="https://twitter.com/?lang=en"
+           ><img src="images/twiter.png" alt="twiter" target="blank"
+         /></a>
+       </div>
+     
+  
+           
+       
+       <nav>
+       <ul class="navbarlinks">
+ 
+        
+             <li><a href="#" onclick="toggleMenu()"><img src="images/menu.svg" alt="menu"></a></li>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="temple.html">Temple</a></li>
+             <li><a href="reservation.html">Reservation</a></li>
+             <li><a href="service.html">Services</a></li>
+             <li><a href="reception.html">Reception</a></li>
+             <li>
+               <a href="fulltimetemplemissionary.html"
+                 >FullTime Temple Missionary</a         
+               >
+             </li>
+           </ul>
+         
+           
+       
+         </nav>
+       </section>
+     </header>
     <main>
   
-    </div>
+   
     <div class="content">
 
     </div>
@@ -71,8 +77,7 @@
   
         <div>
           <p>
-            <span>&copy;2022</span> / PATRICK OCHEN / OREM,UTAH / BYU IDAHO / LAST
-            MODIFIED:<span></span>
+            <span>&copy;2022</span> / PATRICK OCHEN / OREM,UTAH / BYU IDAHO / <span class="myupdate"></span>
           </p>
         </div>
       </footer>

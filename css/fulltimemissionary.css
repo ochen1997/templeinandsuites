@@ -22,6 +22,7 @@ body {
 header {
     display: flex;
     justify-content: center;
+    justify-content: center;
     align-items: center;
     background-color: #80d39b;
     padding: 10px;
@@ -69,9 +70,9 @@ ul li {
     display: none;
 }
 
-ul li:first-child {
+.navbarlinks li:first-child {
     display: block;
-    margin-left: 20px;
+    
     
 
 }
@@ -221,6 +222,25 @@ h3{
     font-family: 'IBM Plex Serif', serif;
 }
 
+.navbarlinks li:first-child{
+    display: block;
+  
+   
+}
+
+
+.show li{
+    display: block;
+}
+
+.navbarlinks a{
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    margin: 10px;
+   
+}
+
 @media only screen and (min-width:768px) {
 
 
@@ -318,7 +338,7 @@ h3{
         padding: 10px;
     }
 
-    ul li:first-child {
+    .navbarlinks li:first-child {
         display: none;
     }
 
@@ -424,6 +444,12 @@ h3{
         padding: 10px;
         cursor: pointer;
         color: #f7f0f0;
+    }
+    .navbarlinks a{
+        margin-left: 0;
+     }
+     .show li{
+        display: inline-flex;
     }
 }
 

@@ -22,6 +22,7 @@ body {
 header {
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #80d39b;
     padding: 10px;
@@ -69,9 +70,9 @@ ul li {
     display: none;
 }
 
-ul li:first-child {
+.navbarlinks li:first-child {
     display: block;
-    margin-left: 20px;
+    
 
 }
 
@@ -126,6 +127,50 @@ ul li a:hover {
     background-color: #437c90;
     border-radius: 20px 20px 20px;
 }
+.content img{
+    width: 100%;
+}
+main{
+    margin-top: 20px;
+}
+.content{
+    text-align: center;
+    line-height: 2rem;
+}
+
+
+body{
+    font-family: 'EB Garamond', serif;  
+}
+h5{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1rem;
+}
+
+h2,
+h3{
+    font-family: 'IBM Plex Serif', serif;
+}
+.navbarlinks li:first-child{
+    display: block;
+  
+   
+}
+
+
+.show li{
+    display: block;
+}
+
+.navbarlinks a{
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    margin: 10px;
+   
+}
+
+
 
 @media only screen and (min-width:768px) {
 
@@ -146,7 +191,7 @@ ul li a:hover {
         justify-content: space-between;
     }
 
-    ul li:first-child {
+    .navbarlinks li:first-child {
         display: none;
     }
 
@@ -175,5 +220,23 @@ ul li a:hover {
     .footerlogo {
         display: flex;
         align-items: center;
+    }
+    main{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    main{
+        margin-top: 20px;
+    }
+
+    .content{
+        text-align: center;
+        line-height: 2rem;
+    }
+    .navbarlinks a{
+        margin-left: 0;
+     }
+     .show li{
+        display: inline-flex;
     }
 }

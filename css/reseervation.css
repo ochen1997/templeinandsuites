@@ -22,6 +22,7 @@ body {
 header {
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #80d39b;
     padding: 10px;
@@ -71,9 +72,9 @@ ul li {
     display: none;
 }
 
-ul li:first-child {
+.navbarlinks li:first-child {
     display: block;
-    margin-left: 20px;
+   
 
 }
 
@@ -184,6 +185,25 @@ ul li a:hover {
     border-radius: 20px 20px 20px;
 }
 
+.navbarlinks li:first-child{
+    display: block;
+  
+   
+}
+
+
+.show li{
+    display: block;
+}
+
+.navbarlinks a{
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    margin: 10px;
+   
+}
+
 
  
 
@@ -219,7 +239,7 @@ ul li a:hover {
         padding: 10px;
     }
 
-    ul li:first-child {
+    .navbarlinks li:first-child {
         display: none;
     }
 
@@ -248,5 +268,12 @@ ul li a:hover {
     .footerlogo {
         display: flex;
         align-items: center;
+    }
+    .navbarlinks a{
+        margin-left: 0;
+     }
+
+     .show li{
+        display: inline-flex;
     }
 }
